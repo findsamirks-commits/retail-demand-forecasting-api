@@ -1,13 +1,19 @@
-**📈 Retail Demand Forecasting API**
-Welcome to the Retail Demand Forecasting API repository! This project demonstrates how to move machine learning models out of a static notebook environment and into a production-ready backend service using FastAPI and Random Forest Regression.
+# 📈 Retail Demand Forecasting API
 
-**🚀 Project Architecture & Workflow**
+Welcome to the **Retail Demand Forecasting API** repository! This project demonstrates how to move machine learning models out of a static notebook environment and into a production-ready backend service using **FastAPI** and **Random Forest Regression**.
+
+---
+
+## 🚀 Project Architecture & Workflow
+
+```mermaid
 graph TD
     A[Historical Sales Data] --> B[Time-Series Feature Engineering: Lag & Rolling Means]
     B --> C[Train Random Forest Regressor]
     C --> D[Serialize Model to .joblib]
     D --> E[FastAPI Backend: /predict Endpoint]
     E --> F[Instant JSON Response for Inventory & Demand Planning]
+```
 
 **📁 Repository Structure**
 * **retail_forecasting.ipynb —** The complete lab notebook detailing data loading, feature engineering, model training, and evaluation.
