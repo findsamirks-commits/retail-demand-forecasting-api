@@ -33,9 +33,10 @@ graph TD
     ```
 5. Test the API:
 Open your browser and navigate to [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) to access the interactive Swagger UI and test your demand-forecasting model live!
-6. Open your computer's Terminal (Mac) or Command Prompt / VS Code Terminal (Windows), make sure you are inside this project folder, and paste the commands.
 
-**🎮 Mini Challenge for Learners:**
+7. Open your computer's Terminal (Mac) or Command Prompt / VS Code Terminal (Windows), make sure you are inside this project folder, and paste the commands.
+
+##**🎮 Mini Challenge for Learners:**
 
 Can you change window=3 in Step 1 to window=6? How does it change the rolling average?
 
